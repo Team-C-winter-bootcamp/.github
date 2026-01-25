@@ -226,28 +226,28 @@
     <tr>
         <th>GitHub</th>
         <td width="100" align="center">
-            <a href=>
-                <img src=/>
+            <a href="https://github.com/HyeonHoLe2">
+                <img src="http://img.shields.io/badge/HyeonHoLe2-green?style=social&logo=github"/>
             </a>
         </td>
         <td width="100" align="center">
-            <a href=>
-                <img src=/>
+            <a href="https://github.com/SeungJo-02">
+                <img src="http://img.shields.io/badge/SeungJo02-green?style=social&logo=github"/>
             </a>
         </td>
         <td width="100" align="center">
-            <a href=>
-                <img src=/>
+            <a href="https://github.com/wnswp1122">
+                <img src="http://img.shields.io/badge/wnswp1122-green?style=social&logo=github"/>
             </a>
         </td>
         <td width="100" align="center">
-            <a href=>
-                <img src=/>
+            <a href='https://github.com/Movinggun-bit'>
+                <img src="http://img.shields.io/badge/Movinggunbit-green?style=social&logo=github"/>
             </a>
         </td>
         <td width="100" align="center">
-            <a href=>
-                <img src=/>
+            <a href="https://github.com/Han-Seung-Yeop">
+                <img src="http://img.shields.io/badge/HanSeungYeop-green?style=social&logo=github"/>
             </a>
         </td>
      </tr>
