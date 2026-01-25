@@ -1,5 +1,4 @@
-# .github
-# ⚖️ LAWDING
+ ⚖️ LAWDING
 <div align=center>
 <img src=/>
 <h5>2025.12.29-2026.01.31</h5>
@@ -37,18 +36,18 @@
 
 <h2>📁 API</h2>
 <h3>Swagger</h3>
-<img src=>
+<img width="1929" height="872" alt="Image" src="https://github.com/user-attachments/assets/134d781b-1cd2-40a9-a59a-a7674b969eed" />
 
 <br />
 
 <h2>🏛️ System Architechture</h2>
-<img src="/asset/arch.png" alt="System Architecture">
+<img width="1801" height="897" alt="Image" src="https://github.com/user-attachments/assets/9a390d98-e6ce-4f53-afa3-bdc8a7834fc9" />
 
 <br />
 <br />
 
 <h2>🗝️ ERD</h2>
-<img src="/asset/ERD.png" alt="ERD">
+<img width="1634" height="1002" alt="Image" src="https://github.com/user-attachments/assets/400e6838-1c4a-476f-b024-e9a86e08f3f1" />
 
 <br />
 <br />
@@ -166,11 +165,6 @@
     <tbody>
     <tr>
         <th>Pictures</th>
-         <td width="100" align="center">
-            <a href=>
-                <img src=width="80" height="80">
-            </a>
-        </td>
         <td width="100" align="center">
             <a href=>
                 <img src= width="80" height="80">
@@ -199,12 +193,11 @@
     </tr>
     <tr>
         <th>Name</th>
-        <td width="100" align="center"></td>
-        <td width="100" align="center"></td>
-        <td width="100" align="center"></td>
-        <td width="100" align="center"></td>
-        <td width="100" align="center"></td>
-        <td width="100" align="center"></td>
+        <td width="100" align="center">이현호</td>
+        <td width="100" align="center">김승조</td>
+        <td width="100" align="center">박준제</td>
+        <td width="100" align="center">이동건</td>
+        <td width="100" align="center">한승엽</td>
     </tr>
     <tr>
         <th>Position</th>
@@ -214,30 +207,24 @@
             DevOps<br>
         </td>
         <td width="100" align="center">
-            <br>
-            <br>
+            Frontend<br>
+            Design<br>
         </td>
         <td width="100" align="center">
-            <br>
-            <br>
+            Backend<br>
+            DevOps<br>
         </td>
         <td width="100" align="center">
-            <br><br/>
+            Backend<br>
+            DevOps<br>
         </td>
         <td width="100" align="center">
-            <br><br/>
-        </td>
-        <td width="100" align="center">
-            <br><br/>
+            Backend<br>
+            DevOps<br>
         </td>
     </tr>
     <tr>
         <th>GitHub</th>
-        <td width="100" align="center">
-            <a href=>
-                <img src=/>
-            </a>
-        </td>
         <td width="100" align="center">
             <a href=>
                 <img src=/>
