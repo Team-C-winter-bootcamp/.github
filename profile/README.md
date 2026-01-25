@@ -5,7 +5,8 @@
 <h5>2025.12.29-2026.01.31</h5>
 <h4>배포 이후 사이트 주소 집어 넣기</h4>
 <h5>로딩중(LAWDING)은 판례 데이터를 기반으로 합리적인 법적 의사결정을 지원하는원스톱 법률 솔루션입니다.</h5>
-<h5>의뢰인 상황에 최적화된 판례를 찾고 분석하여 적정 합의금, 승소 가능성, 소송 예상 기간을 제시합니다. 이를 통해 합리적인 의사결정을 돕고, 복잡한 법률 문서 초안 작성까지 원스톱으로 지원합니다.</h5>
+<h5>의뢰인 상황에 최적화된 판례를 찾고 분석하여 적정 합의금, 승소 가능성, 소송 예상 기간을 제시합니다. <br/>
+이를 통해 합리적인 의사결정을 돕고, 복잡한 법률 문서 초안 작성까지 원스톱으로 지원합니다.</h5>
 </div>
 <br />
 
@@ -30,73 +31,103 @@
 <h3>법률 문서 작성</h3>
 <img src=>
 
-
 <br />
 <br />
 <br />
 
-<h2>🏛️ System Architechture</h2>
-<img src=>
-
-<br />
-<br />
-
-<h2>🛠️ Tech Stack</h2>
-<div align=center>
-<h4>Frontend</h4>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-<img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white">
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
-<img src="https://img.shields.io/badge/vite-#9135FF?style=for-the-badge&logo=Axios&logoColor=white">
-
-<br />
-<br />
-<h4>Backend</h4>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-<img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
-<img src="https://img.shields.io/badge/AWS OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white"/>
-
-
-<br />
-<br />
-<h4>DevOps</h4>
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white"/>
-<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
-
-<br />
-<br />
-<h4>etc</h4>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white">
-<br />
-<br />
-</div>
-
-<br />
-
-<h2>🗝️ ERD</h2>
-<img src=>
-
-<br />
-<br />
 <h2>📁 API</h2>
 <h3>Swagger</h3>
 <img src=>
-<h3>Postman</h3>
-<img src=>
+
+<br />
+
+<h2>🏛️ System Architechture</h2>
+<img src="/asset/arch.png" alt="System Architecture">
+
+<br />
+<br />
+
+<h2>🗝️ ERD</h2>
+<img src="/asset/ERD.png" alt="ERD">
+
+<br />
+<br />
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Field</th>
+      <th>Technology of Use</th>
+    </tr>
+    <tr>
+      <td><b>Frontend</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+        <img src="https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white">
+        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
+        <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+        <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white">
+        <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white">
+        <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+        <img src="https://img.shields.io/badge/Lucide_React-F7B93E?style=for-the-badge&logo=lucide&logoColor=white">
+        <img src="https://img.shields.io/badge/jsPDF-000000?style=for-the-badge">
+        <img src="https://img.shields.io/badge/html2canvas-000000?style=for-the-badge">
+        <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge">
+      </td>
+    </tr>
+    <tr>
+      <td><b>Backend</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+        <img src="https://img.shields.io/badge/DJANGO_REST_Framework-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709">
+        <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white">
+        <img src="https://img.shields.io/badge/Mecab-000000?style=for-the-badge">
+        <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white">
+        <img src="https://img.shields.io/badge/Boto3-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td><b>Database</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
+        <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white">
+        <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td><b>AI</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white">
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td><b>DevOps</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
+        <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td><b>ETC</b></td>
+      <td>
+        <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
+        <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+      </td>
+    </tr>
+  </table>
+</div>
+</br>
 
 <br />
 
@@ -108,9 +139,24 @@
 <img src=>
 
 <br />
+
 <h2>📓 How to Start</h2>
 
+<br />
 
+<h2>📁 Directory Structure</h2>
+
+```
+.github/
+  ├── asset/
+  │   ├── arch.png
+  │   └── ERD.png
+  ├── profile/
+  │   └── README.md
+  └── README.md
+```
+
+<br />
 
 <h2>Member</h2>
 
@@ -220,8 +266,6 @@
      </tr>
     </tbody>
 </table>
-
-
 
 <br />
 <br />
