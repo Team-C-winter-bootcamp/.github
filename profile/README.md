@@ -335,7 +335,7 @@
       <tr>
         <td align="center"><b>Position</b></td>
         <td align="center">Leader<br>Backend<br>DevOps</td>
-        <td align="center">Frontend<br>Design</td>
+        <td align="center">Frontend<br>Design<br>UI/UX</td>
         <td align="center">Backend<br>DevOps</td>
         <td align="center">Backend<br>DevOps</td>
         <td align="center">Backend<br>DevOps</td>
