@@ -194,8 +194,8 @@
 <a id="directory-structure"></a>
 # 📁 Directory Structure
 <details>
-<summary>🗂️ ClaimBridge-Backend Directory Structure (Click to Expand)</summary>
-```text
+<summary>📂 front (펼치기/접기)</summary>
+<pre>
 📂 front
 ┣ 📂 .github
 ┃ ┗ 📂 ISSUE_TEMPLATE
@@ -271,38 +271,39 @@
 ┃ ┃   ┣ 📜 Layout.tsx
 ┃ ┃   ┣ 📜 Modal.tsx
 ┃ ┃   ┗ 📜 Textarea.tsx
-┃ ┣ 📂 context
-┃ ┃ ┗ 📜 CaseContext.tsx
-┃ ┣ 📂 hooks
-┃ ┃ ┣ 📜 useChat.ts
-┃ ┃ ┣ 📜 useChatSessions.ts
-┃ ┃ ┣ 📜 useFileManagement.ts
-┃ ┃ ┣ 📜 useResize.ts
-┃ ┃ ┗ 📜 useSearchFilters.ts
-┃ ┣ 📜 index.css
-┃ ┣ 📜 main.tsx
-┃ ┣ 📂 pages
-┃ ┃ ┣ 📜 AgreeDocument.tsx
-┃ ┃ ┣ 📜 CaseCreation.tsx
-┃ ┃ ┣ 📜 CaseLaw.tsx
-┃ ┃ ┣ 📜 GosoDocument.tsx
-┃ ┃ ┣ 📜 HomePage.tsx
-┃ ┃ ┣ 📜 JudmentDetail.tsx
-┃ ┃ ┣ 📜 LandingPage.tsx
-┃ ┃ ┣ 📜 LoginPage.tsx
-┃ ┃ ┣ 📜 ProofDocument.tsx
-┃ ┃ ┣ 📜 SearchResult.tsx
-┃ ┃ ┣ 📜 SignupPage.tsx
-┃ ┃ ┗ 📜 Solution.tsx
-┃ ┣ 📂 store
-┃ ┃ ┗ 📜 useStore.ts
-┃ ┣ 📂 types
-┃ ┃ ┗ 📜 landing.ts
-┃ ┗ 📜 vite-env.d.ts
+┣ 📂 context
+┃ ┗ 📜 CaseContext.tsx
+┣ 📂 hooks
+┃ ┣ 📜 useChat.ts
+┃ ┣ 📜 useChatSessions.ts
+┃ ┣ 📜 useFileManagement.ts
+┃ ┣ 📜 useResize.ts
+┃ ┗ 📜 useSearchFilters.ts
+┣ 📜 index.css
+┣ 📜 main.tsx
+┣ 📂 pages
+┃ ┣ 📜 AgreeDocument.tsx
+┃ ┣ 📜 CaseCreation.tsx
+┃ ┣ 📜 CaseLaw.tsx
+┃ ┣ 📜 GosoDocument.tsx
+┃ ┣ 📜 HomePage.tsx
+┃ ┣ 📜 JudmentDetail.tsx
+┃ ┣ 📜 LandingPage.tsx
+┃ ┣ 📜 LoginPage.tsx
+┃ ┣ 📜 ProofDocument.tsx
+┃ ┣ 📜 SearchResult.tsx
+┃ ┣ 📜 SignupPage.tsx
+┃ ┗ 📜 Solution.tsx
+┣ 📂 store
+┃ ┗ 📜 useStore.ts
+┣ 📂 types
+┃ ┗ 📜 landing.ts
+┗ 📜 vite-env.d.ts
 ┣ 📜 tailwind.config.js
 ┣ 📜 tsconfig.json
 ┣ 📜 tsconfig.node.json
 ┗ 📜 vite.config.ts
+</pre>
 </details>
 <br />
 
