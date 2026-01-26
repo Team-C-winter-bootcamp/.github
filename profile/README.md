@@ -1,65 +1,112 @@
- ⚖️ LAWDING
-<div align=center>
-<img src=/>
-<h5>2025.12.29-2026.01.31</h5>
-<h4>배포 이후 사이트 주소 집어 넣기</h4>
-<h5>로딩중(LAWDING)은 판례 데이터를 기반으로 합리적인 법적 의사결정을 지원하는원스톱 법률 솔루션입니다.</h5>
-<h5>의뢰인 상황에 최적화된 판례를 찾고 분석하여 적정 합의금, 승소 가능성, 소송 예상 기간을 제시합니다. <br/>
-이를 통해 합리적인 의사결정을 돕고, 복잡한 법률 문서 초안 작성까지 원스톱으로 지원합니다.</h5>
+<div align="center">
+  <h1>⚖️ LAWDING ⚖️</h1>
+  <p>
+    <b>2025.12.29 - 2026.01.31</b>
+  </p>
+  <br/>
+  <img src="https://github.com/user-attachments/assets/fab2be4e-ec40-4d38-a9c2-221b553d7d43" width="80%" />
+  <br/>
+  <br/>
 </div>
-<br />
 
-<h2>📄 Medium</h2>
-나중에 블로그 만들어지면 넣기기
-<br />
-<br />
+# 📖 Table of Contents
+* [Introduction](#introduction)
+* [Demo](#demo)
+* [API](#api)
+* [System Architecture](#system-architecture)
+* [ERD](#erd)
+* [Tech Stack](#tech-stack)
+* [Monitoring](#monitoring)
+* [How to start](#how-to-start)
+* [Directory Structure](#directory-structure)
+* [Team Members](#team-members)
 
-<h2>🖥️ Demo</h2>
-<h3>서비스 인트로</h3>
-<img src=>
-<h3>메인 홈 및 사건 유형 선택</h3>
-<img src=>
-<h3>상황 진단 및 사건 상세입력</h3>
-<img src=>
-<h3>유사 판례 매칭</h3>
-<img src=>
-<h3>판례 상세 열람(요약/전문)</h3>
-<img src=>
-<h3>데이터 분석결과와 솔루션</h3>
-<img src=>
-<h3>법률 문서 작성</h3>
-<img src=>
+<br>
 
-<br />
-<br />
-<br />
+<a id="introduction"></a>
+# 📣 Introduction
+### URL
+> (추후 링크 추가 예정)
 
-<h2>📁 API</h2>
-<h3>Swagger</h3>
-<img width="1929" height="872" alt="Image" src="https://github.com/user-attachments/assets/134d781b-1cd2-40a9-a59a-a7674b969eed" />
+### Medium
+> (추후 블로그 링크 추가 예정)
 
-<br />
+### 프로젝트 소개
+- **판례 빅데이터를 기반으로 합리적인 법적 의사결정을 지원**
+- **변호사 선임의 심리적·비용적 부담을 줄이는 의뢰인 맞춤형 솔루션**
+- **AI 분석을 통해 적정 합의금, 승소 가능성, 소송 예상 기간을 제시**
+- **복잡한 법률 문서 초안 작성까지 원스톱(One-Stop)으로 해결**
 
-<h2>🏛️ System Architechture</h2>
-<img width="1801" height="897" alt="Image" src="https://github.com/user-attachments/assets/9a390d98-e6ce-4f53-afa3-bdc8a7834fc9" />
+<br>
 
-<br />
-<br />
+<a id="demo"></a>
+# 🕺🏻 Demo
 
-<h2>🗝️ ERD</h2>
-<img width="1634" height="1002" alt="Image" src="https://github.com/user-attachments/assets/400e6838-1c4a-476f-b024-e9a86e08f3f1" />
+### Onboarding Page
+> LAWDING의 전체적인 프로세스에 대한 설명을 담고 있습니다.
+<img src="이미지_URL_입력" width="100%" alt="Onboarding Page" />
 
-<br />
-<br />
+### 메인 홈 및 사건 유형 선택
+> LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
+<img src="이미지_URL_입력" width="100%" alt="Main Home" />
+
+### 상황 진단 및 사건 상세입력
+> 체크리스트와 상세 입력을 통해 의뢰인의 상황을 구체화합니다.
+<img src="이미지_URL_입력" width="100%" alt="Checklist" />
+
+### 유사 판례 매칭
+> 의뢰인의 사건과 유사한 판례를 매칭하여 보여줍니다.
+<img src="이미지_URL_입력" width="100%" alt="Matching" />
+
+### 판례 상세 열람(요약/전문)
+> 입력된 의뢰인의 데이터를 기반으로 가장 유사한 판례의 요약과 전문을 제공해 현 상황을 객관적으로 이해하도록 돕습니다.
+<img src="이미지_URL_입력" width="100%" alt="Detail View" />
+
+### AI 법률 데이터 심층 분석 및 솔루션
+> 의뢰인의 사건을 판례 빅데이터와 비교·분석하여, 객관적인 수치와 시각화된 자료를 통해 최적의 의사결정을 내릴 수 있도록 돕습니다.
+>
+> 1. **사건 성격 및 유사도 정밀 대조**: 내 사건의 특성이 과거 유사 판례들과 비교했을 때 어떤 위치에 있는지 레이더 차트로 분석합니다.
+> 2. **소송 진행 시 예상 판결(형량) 예측**: 유사 사건들의 판결 데이터를 통계화하여 예상되는 결과의 확률 분포를 확인합니다.
+> 3. **데이터 기반 적정 합의금 산출**: 판례상 인정된 손해배상 및 위자료 범위를 분석하여 합리적인 '목표 합의금' 구간을 제시합니다.
+> 4. **핵심 법리 해석 및 단계별 해결 로드맵**: 현재 상황에서 가장 먼저 해야 할 행동 지침과 맞춤형 법률 문서를 추천합니다.
+<img src="이미지_URL_입력" width="100%" alt="AI Analysis" />
+
+### 법률 문서 작성
+> 선택을 마친 의뢰인은 필요한 문서를 선택할 수 있고 AI의 도움을 받아 빠르게 초안을 작성할 수 있습니다.
+<img src="이미지_URL_입력" width="100%" alt="Document Writing" />
+
+<br>
+
+<a id="api"></a>
+# 📁 API
+### Swagger
+<img src="https://github.com/user-attachments/assets/134d781b-1cd2-40a9-a59a-a7674b969eed" width="100%" alt="Swagger API" />
+
+<br>
+
+<a id="system-architecture"></a>
+# 🏛️ System Architecture
+<img src="https://github.com/user-attachments/assets/400e6838-1c4a-476f-b024-e9a86e08f3f1" width="100%" alt="System Architecture" />
+
+<br>
+
+<a id="erd"></a>
+# 🗝️ ERD
+<img src="https://github.com/user-attachments/assets/9a390d98-e6ce-4f53-afa3-bdc8a7834fc9" width="100%" alt="ERD" />
+
+<br>
+
+<a id="tech-stack"></a>
+# 💻 Tech Stack
 
 <div align="center">
   <table>
     <tr>
-      <th>Field</th>
-      <th>Technology of Use</th>
+      <th width="15%">Field</th>
+      <th width="85%">Technology of Use</th>
     </tr>
     <tr>
-      <td><b>Frontend</b></td>
+      <td align="center"><b>Frontend</b></td>
       <td>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
         <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
@@ -79,7 +126,7 @@
       </td>
     </tr>
     <tr>
-      <td><b>Backend</b></td>
+      <td align="center"><b>Backend</b></td>
       <td>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
         <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
@@ -91,7 +138,7 @@
       </td>
     </tr>
     <tr>
-      <td><b>Database</b></td>
+      <td align="center"><b>Database</b></td>
       <td>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
         <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white">
@@ -99,14 +146,14 @@
       </td>
     </tr>
     <tr>
-      <td><b>AI</b></td>
+      <td align="center"><b>AI</b></td>
       <td>
         <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white">
         <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
       </td>
     </tr>
     <tr>
-      <td><b>DevOps</b></td>
+      <td align="center"><b>DevOps</b></td>
       <td>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
         <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
@@ -114,7 +161,7 @@
       </td>
     </tr>
     <tr>
-      <td><b>ETC</b></td>
+      <td align="center"><b>ETC</b></td>
       <td>
         <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
         <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
@@ -126,24 +173,26 @@
     </tr>
   </table>
 </div>
-</br>
 
-<br />
+<br>
 
-<h2>🔍 Monitoring</h2>
-<h3>prometheus</h3>
-<img src=>
+<a id="monitoring"></a>
+# 🔍 Monitoring
+### Prometheus
+<img src="이미지_URL_입력" width="100%" alt="Prometheus" />
 
-<h3>Grafana dashboard</h3>
-<img src=>
+### Grafana Dashboard
+<img src="이미지_URL_입력" width="100%" alt="Grafana" />
 
-<br />
+<br>
 
+<a id="how-to-start"></a>
 <h2>📓 How to Start</h2>
 
 <br />
 
-<h2>📁 Directory Structure</h2>
+<a id="directory-structure"></a>
+# 📁 Directory Structure
 
 ```
 .github/
@@ -157,102 +206,69 @@
 
 <br />
 
-<h2>Member</h2>
+<a id="team-members"></a>
+<a id="team-members"></a>
+# 👥 Team Members
 
-<table width="1000">
+<div align="center">
+  <table width="100%">
     <thead>
+      <tr>
+        <th width="20%">Pictures</th>
+        <th width="20%">이현호</th>
+        <th width="20%">김승조</th>
+        <th width="20%">박준제</th>
+        <th width="20%">이동건</th>
+        <th width="20%">한승엽</th>
+      </tr>
     </thead>
     <tbody>
-    <tr>
-        <th>Pictures</th>
-        <td width="100" align="center">
-            <a href=>
-                <img src= width="80" height="80">
-            </a>
+      <tr>
+        <td align="center"><b>Profile</b></td>
+        <td align="center"><img src="https://github.com/HyeonHoLe2.png" width="100"></td>
+        <td align="center"><img src="https://github.com/SeungJo-02.png" width="100"></td>
+        <td align="center"><img src="https://github.com/wnswp1122.png" width="100"></td>
+        <td align="center"><img src="https://github.com/Movinggun-bit.png" width="100"></td>
+        <td align="center"><img src="https://github.com/Han-Seung-Yeop.png" width="100"></td>
+      </tr>
+      <tr>
+        <td align="center"><b>Position</b></td>
+        <td align="center">Leader<br>Backend<br>DevOps</td>
+        <td align="center">Frontend<br>Design</td>
+        <td align="center">Backend<br>DevOps</td>
+        <td align="center">Backend<br>DevOps</td>
+        <td align="center">Backend<br>DevOps</td>
+      </tr>
+      <tr>
+        <td align="center"><b>GitHub</b></td>
+        <td align="center">
+          <a href="https://github.com/HyeonHoLe2">
+            <img src="http://img.shields.io/badge/HyeonHoLe2-181717?style=social&logo=github"/>
+          </a>
         </td>
-        <td width="100" align="center">
-            <a href=>
-                <img src= width="80" height="80">
-            </a>
+        <td align="center">
+          <a href="https://github.com/SeungJo-02">
+            <img src="http://img.shields.io/badge/SeungJo02-181717?style=social&logo=github"/>
+          </a>
         </td>
-        <td width="100" align="center">
-            <a href=>
-                <img src= width="80" height="80">
-            </a>
+        <td align="center">
+          <a href="https://github.com/wnswp1122">
+            <img src="http://img.shields.io/badge/wnswp1122-181717?style=social&logo=github"/>
+          </a>
         </td>
-        <td width="100" align="center">
-            <a href=>
-                <img src= width="80" height="80">
-            </a>
+        <td align="center">
+          <a href="https://github.com/Movinggun-bit">
+            <img src="http://img.shields.io/badge/Movinggunbit-181717?style=social&logo=github"/>
+          </a>
         </td>
-        <td width="100" align="center">
-            <a href=>
-                <img src= width="80" height="80">
-            </a>
+        <td align="center">
+          <a href="https://github.com/Han-Seung-Yeop">
+            <img src="http://img.shields.io/badge/HanSeungYeop-181717?style=social&logo=github"/>
+          </a>
         </td>
-    </tr>
-    <tr>
-        <th>Name</th>
-        <td width="100" align="center">이현호</td>
-        <td width="100" align="center">김승조</td>
-        <td width="100" align="center">박준제</td>
-        <td width="100" align="center">이동건</td>
-        <td width="100" align="center">한승엽</td>
-    </tr>
-    <tr>
-        <th>Position</th>
-        <td width="10" align="center">
-            Leader<br>
-            Backend<br>
-            DevOps<br>
-        </td>
-        <td width="100" align="center">
-            Frontend<br>
-            Design<br>
-        </td>
-        <td width="100" align="center">
-            Backend<br>
-            DevOps<br>
-        </td>
-        <td width="100" align="center">
-            Backend<br>
-            DevOps<br>
-        </td>
-        <td width="100" align="center">
-            Backend<br>
-            DevOps<br>
-        </td>
-    </tr>
-    <tr>
-        <th>GitHub</th>
-        <td width="100" align="center">
-            <a href="https://github.com/HyeonHoLe2">
-                <img src="http://img.shields.io/badge/HyeonHoLe2-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href="https://github.com/SeungJo-02">
-                <img src="http://img.shields.io/badge/SeungJo02-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href="https://github.com/wnswp1122">
-                <img src="http://img.shields.io/badge/wnswp1122-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href='https://github.com/Movinggun-bit'>
-                <img src="http://img.shields.io/badge/Movinggunbit-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href="https://github.com/Han-Seung-Yeop">
-                <img src="http://img.shields.io/badge/HanSeungYeop-green?style=social&logo=github"/>
-            </a>
-        </td>
-     </tr>
+      </tr>
     </tbody>
-</table>
-
+  </table>
+</div>
 <br />
 <br />
