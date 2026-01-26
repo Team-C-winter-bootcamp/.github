@@ -193,17 +193,117 @@
 
 <a id="directory-structure"></a>
 # 📁 Directory Structure
-
-```
-.github/
-  ├── asset/
-  │   ├── arch.png
-  │   └── ERD.png
-  ├── profile/
-  │   └── README.md
-  └── README.md
-```
-
+<details>
+<summary>🗂️ ClaimBridge-Backend Directory Structure (Click to Expand)</summary>
+```text
+📂 front
+┣ 📂 .github
+┃ ┗ 📂 ISSUE_TEMPLATE
+┃   ┣ 📜 Chore.md
+┃   ┣ 📜 Deploy.md
+┃   ┣ 📜 Design.md
+┃   ┣ 📜 Docs.md
+┃   ┣ 📜 Feat.md
+┃   ┣ 📜 Fix.md
+┃   ┣ 📜 Hotfix.md
+┃   ┣ 📜 Refactor.md
+┃   ┣ 📜 Remove.md
+┃   ┣ 📜 Rename.md
+┃   ┗ 📜 Style.md
+┣ 📜 .env
+┣ 📜 .eslintrc.cjs
+┣ 📜 .gitignore
+┣ 📜 index.html
+┣ 📜 package-lock.json
+┣ 📜 package.json
+┣ 📜 postcss.config.js
+┣ 📂 public
+┃ ┣ 📜 robots.txt
+┃ ┗ 📜 vite.svg
+┣ 📜 README.md
+┣ 📂 src
+┃ ┣ 📂 api
+┃ ┃ ┣ 📜 API_SPEC_GUIDE.md
+┃ ┃ ┣ 📜 client.ts
+┃ ┃ ┣ 📜 endpoints.ts
+┃ ┃ ┣ 📜 index.ts
+┃ ┃ ┣ 📜 README.md
+┃ ┃ ┣ 📂 services
+┃ ┃ ┃ ┗ 📜 Service.ts
+┃ ┃ ┗ 📜 types.ts
+┃ ┣ 📜 App.tsx
+┃ ┣ 📂 assets
+┃ ┣ 📂 components
+┃ ┃ ┣ 📂 AlertModal
+┃ ┃ ┃ ┣ 📜 DeleteAlertModal.tsx
+┃ ┃ ┃ ┣ 📜 LoginAlertModal.tsx
+┃ ┃ ┃ ┣ 📜 LogoutAlertModal.tsx
+┃ ┃ ┃ ┣ 📜 SearchPageAlertModal.tsx
+┃ ┃ ┃ ┗ 📜 SignupAlertModal.tsx
+┃ ┃ ┣ 📂 case
+┃ ┃ ┃ ┣ 📜 CaseLawCard.tsx
+┃ ┃ ┃ ┣ 📜 ChecklistItem.tsx
+┃ ┃ ┃ ┣ 📜 ProgressIndicator.tsx
+┃ ┃ ┃ ┣ 📜 QuestionCard.tsx
+┃ ┃ ┃ ┗ 📜 Timeline.tsx
+┃ ┃ ┣ 📂 ChatPage
+┃ ┃ ┃ ┗ 📜 ChatBubble.tsx
+┃ ┃ ┣ 📂 HomePage
+┃ ┃ ┃ ┗ 📜 CategoryCard.tsx
+┃ ┃ ┣ 📂 landing
+┃ ┃ ┃ ┣ 📜 Features.tsx
+┃ ┃ ┃ ┣ 📜 Footer.tsx
+┃ ┃ ┃ ┣ 📜 Hero.tsx
+┃ ┃ ┃ ┣ 📜 LandingPage.tsx
+┃ ┃ ┃ ┣ 📜 Navbar.tsx
+┃ ┃ ┃ ┣ 📜 TrendingSection.tsx
+┃ ┃ ┃ ┗ 📜 UseCases.tsx
+┃ ┃ ┣ 📂 search
+┃ ┃ ┃ ┣ 📜 FilterSidebar.tsx
+┃ ┃ ┃ ┣ 📜 Pagination.tsx
+┃ ┃ ┃ ┣ 📜 SearchBar.tsx
+┃ ┃ ┃ ┗ 📜 SearchResultItem.tsx
+┃ ┃ ┗ 📂 ui
+┃ ┃   ┣ 📜 Badge.tsx
+┃ ┃   ┣ 📜 Button.tsx
+┃ ┃   ┣ 📜 Card.tsx
+┃ ┃   ┣ 📜 Input.tsx
+┃ ┃   ┣ 📜 Layout.tsx
+┃ ┃   ┣ 📜 Modal.tsx
+┃ ┃   ┗ 📜 Textarea.tsx
+┃ ┣ 📂 context
+┃ ┃ ┗ 📜 CaseContext.tsx
+┃ ┣ 📂 hooks
+┃ ┃ ┣ 📜 useChat.ts
+┃ ┃ ┣ 📜 useChatSessions.ts
+┃ ┃ ┣ 📜 useFileManagement.ts
+┃ ┃ ┣ 📜 useResize.ts
+┃ ┃ ┗ 📜 useSearchFilters.ts
+┃ ┣ 📜 index.css
+┃ ┣ 📜 main.tsx
+┃ ┣ 📂 pages
+┃ ┃ ┣ 📜 AgreeDocument.tsx
+┃ ┃ ┣ 📜 CaseCreation.tsx
+┃ ┃ ┣ 📜 CaseLaw.tsx
+┃ ┃ ┣ 📜 GosoDocument.tsx
+┃ ┃ ┣ 📜 HomePage.tsx
+┃ ┃ ┣ 📜 JudmentDetail.tsx
+┃ ┃ ┣ 📜 LandingPage.tsx
+┃ ┃ ┣ 📜 LoginPage.tsx
+┃ ┃ ┣ 📜 ProofDocument.tsx
+┃ ┃ ┣ 📜 SearchResult.tsx
+┃ ┃ ┣ 📜 SignupPage.tsx
+┃ ┃ ┗ 📜 Solution.tsx
+┃ ┣ 📂 store
+┃ ┃ ┗ 📜 useStore.ts
+┃ ┣ 📂 types
+┃ ┃ ┗ 📜 landing.ts
+┃ ┗ 📜 vite-env.d.ts
+┣ 📜 tailwind.config.js
+┣ 📜 tsconfig.json
+┣ 📜 tsconfig.node.json
+┗ 📜 vite.config.ts
+</details>
 <br />
 
 <a id="team-members"></a>
