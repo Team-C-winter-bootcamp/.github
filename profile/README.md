@@ -80,8 +80,7 @@
 <a id="api"></a>
 # 📁 API
 ### Swagger
-<img src="https://github.com/user-attachments/assets/134d781b-1cd2-40a9-a59a-a7674b969eed" width="100%" alt="Swagger API" />
-
+<img width="2331" height="1040" alt="Image" src="https://github.com/user-attachments/assets/d979bed5-90df-4ad3-80e8-6752d9df1db0" />
 <br>
 
 <a id="system-architecture"></a>
