@@ -214,7 +214,7 @@
   <table width="100%">
     <thead>
       <tr>
-        <th width="20%">Pictures</th>
+        <th width="20%">name</th>
         <th width="20%">이현호</th>
         <th width="20%">김승조</th>
         <th width="20%">박준제</th>
