@@ -214,12 +214,12 @@
   <table width="100%">
     <thead>
       <tr>
-        <th width="20%">name</th>
-        <th width="20%">이현호</th>
-        <th width="20%">김승조</th>
-        <th width="20%">박준제</th>
-        <th width="20%">이동건</th>
-        <th width="20%">한승엽</th>
+        <th width="16.6%">name</th>
+        <th width="16.6%">이현호</th>
+        <th width="16.6%">김승조</th>
+        <th width="16.6%">박준제</th>
+        <th width="16.6%">이동건</th>
+        <th width="16.6%">한승엽</th>
       </tr>
     </thead>
     <tbody>
