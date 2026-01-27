@@ -85,7 +85,8 @@
 
 <a id="system-architecture"></a>
 # 🏛️ System Architecture
-<img src="https://github.com/user-attachments/assets/400e6838-1c4a-476f-b024-e9a86e08f3f1" width="100%" alt="System Architecture" />
+<img width="1984" height="1112" alt="image" src="https://github.com/user-attachments/assets/ad6f1413-4e66-49d6-ba0b-5b808f254612" />
+
 
 <br>
 
