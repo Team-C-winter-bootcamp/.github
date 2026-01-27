@@ -32,8 +32,8 @@
 > (추후 블로그 링크 추가 예정)
 
 ### 프로젝트 소개
-- **판례 빅데이터를 기반으로 합리적인 법적 의사결정을 지원**
 - **변호사 선임의 심리적·비용적 부담을 줄이는 의뢰인 맞춤형 솔루션**
+- **판례 빅데이터를 기반으로 합리적인 법적 의사결정을 지원**
 - **AI 분석을 통해 적정 합의금, 승소 가능성, 소송 예상 기간을 제시**
 - **복잡한 법률 문서 초안 작성까지 원스톱(One-Stop)으로 해결**
 
@@ -107,20 +107,17 @@
     <tr>
       <td align="center"><b>Frontend</b></td>
       <td>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
         <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
         <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
         <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-        <img src="https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white">
         <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
         <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
         <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white">
-        <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white">
         <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
         <img src="https://img.shields.io/badge/Lucide_React-F7B93E?style=for-the-badge&logo=lucide&logoColor=white">
-        <img src="https://img.shields.io/badge/jsPDF-000000?style=for-the-badge">
-        <img src="https://img.shields.io/badge/html2canvas-000000?style=for-the-badge">
+        <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white">
         <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge">
       </td>
     </tr>
