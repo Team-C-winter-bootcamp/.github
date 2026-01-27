@@ -119,6 +119,7 @@
         <img src="https://img.shields.io/badge/Lucide_React-F7B93E?style=for-the-badge&logo=lucide&logoColor=white">
         <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white">
         <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge">
+        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
       </td>
     </tr>
     <tr>
@@ -140,7 +141,6 @@
       <td align="center"><b>AI</b></td>
       <td>
         <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white">
-        
       </td>
     </tr>
     <tr>
