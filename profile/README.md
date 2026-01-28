@@ -53,12 +53,9 @@
 > LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
 <img src="https://github.com/user-attachments/assets/b43ec175-ef6a-462d-93fb-a7efda7c1908" width="100%" alt="Main Home" />
 
-
 ### 상황 진단 및 사건 상세입력
 > 체크리스트와 상세 입력을 통해 의뢰인의 상황을 구체화합니다.
-<img src="이미지_URL_입력" width="100%" alt="Checklist" />
-
-
+<img src="https://github.com/user-attachments/assets/fa7c73da-0a94-40b9-b858-04cc3cf5beb5" width="100%" alt="Checklist" />
 
 ### 유사 판례 매칭
 > 의뢰인의 사건과 유사한 판례를 매칭하여 보여줍니다.
@@ -332,7 +329,82 @@ npm run dev
 <details>
 <summary>📂 backend (펼치기/접기)</summary>
 <pre>
-<h2>벡엔드 끝나면 추가<h2>
+📂 backend/
+┣ 📂 .github/
+┃ ┣ 📂 ISSUE_TEMPLATE/
+┃ ┃ ┗ 📜 template.md
+┃ ┗ 📂 workflows/
+┃   ┗ 📜 Deploy to EC2.yml
+┣ 📂 cases/
+┃ ┣ 📜 __init__.py
+┃ ┣ 📜 admin.py
+┃ ┣ 📜 apps.py
+┃ ┣ 📂 migrations/
+┃ ┃ ┣ 📜 __init__.py
+┃ ┃ ┣ 📜 0001_initial.py
+┃ ┃ ┗ 📜 0002_delete_template.py
+┃ ┣ 📜 models.py
+┃ ┣ 📜 serializers.py
+┃ ┣ 📜 service.py
+┃ ┣ 📜 tests.py
+┃ ┣ 📜 urls.py
+┃ ┗ 📜 views.py
+┣ 📂 config/
+┃ ┣ 📜 __init__.py
+┃ ┣ 📜 asgi.py
+┃ ┣ 📂 settings/
+┃ ┃ ┣ 📜 __init__.py
+┃ ┃ ┣ 📜 base.py
+┃ ┃ ┣ 📜 dev.py
+┃ ┃ ┗ 📜 prod.py
+┃ ┣ 📜 urls.py
+┃ ┗ 📜 wsgi.py
+┣ 📂 documents/
+┃ ┣ 📜 __init__.py
+┃ ┣ 📜 admin.py
+┃ ┣ 📜 apps.py
+┃ ┣ 📂 management/
+┃ ┃ ┣ 📜 __init__.py
+┃ ┃ ┗ 📂 commands/
+┃ ┃   ┣ 📜 __init__.py
+┃ ┃   ┗ 📜 seed_templates.py
+┃ ┣ 📂 migrations/
+┃ ┃ ┣ 📜 __init__.py
+┃ ┃ ┣ 📜 0001_initial.py
+┃ ┃ ┗ 📜 0002_alter_document_type_alter_template_type.py
+┃ ┣ 📜 models.py
+┃ ┣ 📜 serializers.py
+┃ ┣ 📜 service.py
+┃ ┣ 📜 urls.py
+┃ ┗ 📜 views.py
+┣ 📂 monitoring/
+┃ ┣ 📂 grafana/
+┃ ┃ ┗ 📂 provisioning/
+┃ ┃   ┣ 📂 dashboards/
+┃ ┃   ┃ ┣ 📜 dashboards.yml
+┃ ┃   ┃ ┗ 📜 django-api-dashboard.json
+┃ ┃   ┗ 📂 datasources/
+┃ ┃     ┗ 📜 datasources.yml
+┃ ┗ 📂 prometheus/
+┃   ┗ 📜 prometheus.yml
+┣ 📂 read me/
+┃ ┣ 📜 DOCKER_GUIDE.md
+┃ ┣ 📜 README.md
+┃ ┣ 📜 SWAGGER_TOKEN_GUIDE.md
+┃ ┗ 📜 TEST_GUIDE.md
+┣ 📜 .env.prob
+┣ 📜 .gitignore
+┣ 📜 Dockerfile
+┣ 📜 README.md
+┣ 📜 docker-compose.prod.yml
+┣ 📜 docker-compose.yml
+┣ 📜 index_merged_precedents.py
+┣ 📜 manage.py
+┣ 📜 merge_precedents.py
+┣ 📜 requirements.txt
+┣ 📜 restart_server.ps1
+┗ 📜 wait_postgres.py
+
 </pre>
 </details>
 
