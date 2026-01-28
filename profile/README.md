@@ -26,10 +26,10 @@
 <a id="introduction"></a>
 # 📣 Introduction
 ### URL
-> (추후 링크 추가 예정)
+> https://lawding.vercel.app/
 
 ### Medium
-> (추후 블로그 링크 추가 예정)
+> https://medium.com/@binsama0106/2025-siliconvalley-winter-bootcamp-lawding-0b6729abd2b7?postPublishedType=initial
 
 ### 프로젝트 소개
 - **변호사 선임의 심리적·비용적 부담을 줄이는 의뢰인 맞춤형 솔루션**
@@ -83,7 +83,7 @@
 <a id="api"></a>
 # 📁 API
 ### Swagger
-<img width="1122" height="571" alt="image" src="https://github.com/user-attachments/assets/674d94ec-e475-4823-b5e0-6f7959c9b8bb" />
+<img width="1122" height="571" alt="image" src="https://github.com/user-attachments/assets/7f58e7ba-8efb-495c-b576-4543df58d6a4" />
 
 <br>
 
@@ -91,13 +91,11 @@
 # 🏛️ System Architecture
 <img width="2018" height="1184" alt="image" src="https://github.com/user-attachments/assets/ce662993-81a3-44b4-95ba-3451268957a4" />
 
-
-
 <br>
 
 <a id="erd"></a>
 # 🗝️ ERD
-<img src="https://github.com/user-attachments/assets/9a390d98-e6ce-4f53-afa3-bdc8a7834fc9" width="100%" alt="ERD" />
+<img src="https://github.com/user-attachments/assets/a1548ba6-c3ae-42c2-abbe-9cfe3bf9ff0e" width="100%" alt="ERD" />
 
 <br>
 
@@ -197,7 +195,25 @@ git clone --recursive https:https://github.com/Team-C-winter-bootcamp/front.git
 ```
 ### env setting in the Backend folder
 ```
+DJANGO_SETTINGS_MODULE=
+DJANGO_SECRET_KEY=
 
+DB_ENGINE=
+DB_HOST=
+DB_PORT=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+
+OPENSEARCH_HOST=
+OPENSEARCH_PORT=
+OPENSEARCH_USERNAME=
+OPENSEARCH_PASSWORD=
+OPENSEARCH_USE_SSL=
+
+GEMINI_API_KEY=
+GEMINI_MODEL=
+EMBEDDING_MODEL=
 ```
 ### Run Docker
 ```
