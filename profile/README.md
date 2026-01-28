@@ -43,8 +43,11 @@
 # 🕺🏻 Demo
 
 ### Onboarding Page
-> LAWDING의 전체적인 프로세스에 대한 설명을 담고 있습니다.
-<img src="https://github.com/user-attachments/assets/616af86c-659a-41af-a8e7-c0f76813ee2f" width="100%" alt="Onboarding Page" />
+> LAWDING의 전체적인 프로세스에 대한 설명을 담고 있습니다.(현재 test용 이미지)
+<img src="https://github.com/user-attachments/assets/1ce84790-7146-4a6e-8af0-49c9620cd04e" width="100%" alt="Onboarding Page" />
+
+
+
 
 ### 메인 홈 및 사건 유형 선택
 > LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
