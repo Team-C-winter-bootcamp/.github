@@ -44,18 +44,20 @@
 
 ### Onboarding Page
 > LAWDING의 전체적인 프로세스에 대한 설명을 담고 있습니다.(현재 test용 이미지)
-<img src="https://github.com/user-attachments/assets/1ce84790-7146-4a6e-8af0-49c9620cd04e" width="100%" alt="Onboarding Page" />
+<img src="이미지_URL_입력" width="100%" alt="Onboarding Page" />
 
 
 
 
 ### 메인 홈 및 사건 유형 선택
 > LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
-<img src="이미지_URL_입력" width="100%" alt="Main Home" />
+<img src="https://github.com/user-attachments/assets/ac37d45d-0dda-4489-b849-0cd6cceaaa00" width="100%" alt="Main Home" />
 
 ### 상황 진단 및 사건 상세입력
 > 체크리스트와 상세 입력을 통해 의뢰인의 상황을 구체화합니다.
 <img src="이미지_URL_입력" width="100%" alt="Checklist" />
+
+
 
 ### 유사 판례 매칭
 > 의뢰인의 사건과 유사한 판례를 매칭하여 보여줍니다.
