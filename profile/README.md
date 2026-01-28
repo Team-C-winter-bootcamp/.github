@@ -51,7 +51,8 @@
 
 ### 메인 홈 및 사건 유형 선택
 > LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
-<img src="https://github.com/user-attachments/assets/ac37d45d-0dda-4489-b849-0cd6cceaaa00" width="100%" alt="Main Home" />
+<img src="https://github.com/user-attachments/assets/b43ec175-ef6a-462d-93fb-a7efda7c1908" width="100%" alt="Main Home" />
+
 
 ### 상황 진단 및 사건 상세입력
 > 체크리스트와 상세 입력을 통해 의뢰인의 상황을 구체화합니다.
