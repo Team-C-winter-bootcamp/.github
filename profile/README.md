@@ -4,7 +4,7 @@
     <b>2025.12.29 - 2026.01.31</b>
   </p>
   <br/>
-  <img src="https://github.com/user-attachments/assets/fab2be4e-ec40-4d38-a9c2-221b553d7d43" width="80%" />
+  <img width="4064" height="1056" alt="Image" src="https://github.com/user-attachments/assets/bf3bfafa-3593-4c0d-b8ac-b0c746f36f98" />
   <br/>
   <br/>
 </div>
