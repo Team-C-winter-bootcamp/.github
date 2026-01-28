@@ -117,6 +117,7 @@
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
         <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
         <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+        <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white">
         <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
         <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
         <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white">
@@ -186,9 +187,28 @@
 <br>
 
 <a id="how-to-start"></a>
-<h2>📓 How to Start</h2>
+# 📓 How To Start
 
-<br />
+### Clone The Repository
+```
+git clone --recursive https:https://github.com/Team-C-winter-bootcamp/team-backend.git
+git clone --recursive https:https://github.com/Team-C-winter-bootcamp/front.git
+```
+### env setting in the Backend folder
+```
+
+```
+### Run Docker
+```
+docker-compose up --build
+```
+### Install & run 
+```
+install npm
+npm run dev
+```
+<br/>
+
 
 <a id="directory-structure"></a>
 # 📁 Directory Structure
@@ -304,6 +324,14 @@
 ┗ 📜 vite.config.ts
 </pre>
 </details>
+
+<details>
+<summary>📂 backend (펼치기/접기)</summary>
+<pre>
+<h2>벡엔드 끝나면 추가<h2>
+</pre>
+</details>
+
 <br />
 
 <a id="team-members"></a>
