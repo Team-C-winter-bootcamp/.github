@@ -44,14 +44,11 @@
 
 ### Onboarding Page
 > LAWDING의 전체적인 프로세스에 대한 설명을 담고 있습니다.(현재 test용 이미지)
-<img src="이미지_URL_입력" width="100%" alt="Onboarding Page" />
-
-
-
+<img src="https://github.com/user-attachments/assets/b7667da6-3de6-4a61-8248-728628b24c47" width="100%" alt="Onboarding Page" />
 
 ### 메인 홈 및 사건 유형 선택
 > LAWDING의 메인 페이지에서 사건 유형을 선택할 수 있습니다.
-<img src="https://github.com/user-attachments/assets/b43ec175-ef6a-462d-93fb-a7efda7c1908" width="100%" alt="Main Home" />
+<img src="https://github.com/user-attachments/assets/d2089e20-a1e3-4f4d-8aa4-5eecfcf202c6" width="100%" alt="Main Home" />
 
 ### 상황 진단 및 사건 상세입력
 > 체크리스트와 상세 입력을 통해 의뢰인의 상황을 구체화합니다.
@@ -59,11 +56,11 @@
 
 ### 유사 판례 매칭
 > 의뢰인의 사건과 유사한 판례를 매칭하여 보여줍니다.
-<img src="이미지_URL_입력" width="100%" alt="Matching" />
+<img src="https://github.com/user-attachments/assets/bba7835d-ab2a-443c-a492-2a7485d04e65" width="100%" alt="Matching" />
 
 ### 판례 상세 열람(요약/전문)
 > 입력된 의뢰인의 데이터를 기반으로 가장 유사한 판례의 요약과 전문을 제공해 현 상황을 객관적으로 이해하도록 돕습니다.
-<img src="이미지_URL_입력" width="100%" alt="Detail View" />
+<img src="https://github.com/user-attachments/assets/faccd260-d3f0-4583-9dc9-afbe11a35a9e" width="100%" alt="Detail View" />
 
 ### AI 법률 데이터 심층 분석 및 솔루션
 > 의뢰인의 사건을 판례 빅데이터와 비교·분석하여, 객관적인 수치와 시각화된 자료를 통해 최적의 의사결정을 내릴 수 있도록 돕습니다.
@@ -72,11 +69,11 @@
 > 2. **소송 진행 시 예상 판결(형량) 예측**: 유사 사건들의 판결 데이터를 통계화하여 예상되는 결과의 확률 분포를 확인합니다.
 > 3. **데이터 기반 적정 합의금 산출**: 판례상 인정된 손해배상 및 위자료 범위를 분석하여 합리적인 '목표 합의금' 구간을 제시합니다.
 > 4. **핵심 법리 해석 및 단계별 해결 로드맵**: 현재 상황에서 가장 먼저 해야 할 행동 지침과 맞춤형 법률 문서를 추천합니다.
-<img src="이미지_URL_입력" width="100%" alt="AI Analysis" />
+<img src="https://github.com/user-attachments/assets/f233b5dd-ed18-4082-98e0-d3af276cdc81" width="100%" alt="AI Analysis" />
 
 ### 법률 문서 작성
 > 선택을 마친 의뢰인은 필요한 문서를 선택할 수 있고 AI의 도움을 받아 빠르게 초안을 작성할 수 있습니다.
-<img src="이미지_URL_입력" width="100%" alt="Document Writing" />
+<img src="https://github.com/user-attachments/assets/14b0f872-afa2-4ec3-8ff4-b45d913227b4" width="100%" alt="Document Writing" />
 
 <br>
 
@@ -178,10 +175,16 @@
 <a id="monitoring"></a>
 # 🔍 Monitoring
 ### Prometheus
-<img src="이미지_URL_입력" width="100%" alt="Prometheus" />
+<img src="https://github.com/user-attachments/assets/711bc798-5663-4555-874a-adaffb75d8e4" width="100%" alt="Prometheus" />
 
 ### Grafana Dashboard
-<img src="이미지_URL_입력" width="100%" alt="Grafana" />
+<img src="https://github.com/user-attachments/assets/4235038d-f582-441b-8ac4-6d98e89318e6" width="100%" alt="Grafana" />
+
+### cAdvisor
+<img src="https://github.com/user-attachments/assets/df85a924-d68a-4a64-abee-12674fb209ed" width="100%" alt="cAdvisor" />
+<img src="https://github.com/user-attachments/assets/24e20ff1-49d1-4a73-ac11-5b2af92241a0" width="100%" alt="cAdvisor" />
+<img src="https://github.com/user-attachments/assets/cd264518-fa83-471a-ad18-81cd620ccd39" width="100%" alt="cAdvisor" />
+<img src="https://github.com/user-attachments/assets/bb489251-379b-4aaf-afff-44fb100b1152" width="100%" alt="cAdvisor" />
 
 <br>
 
