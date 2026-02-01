@@ -26,7 +26,7 @@
 <a id="introduction"></a>
 # 📣 Introduction
 ### URL
-> https://lawding.vercel.app/
+> https://lawding.vercel.app/ (현재 배포 중단)
 
 ### Medium
 > https://medium.com/@binsama0106/2025-siliconvalley-winter-bootcamp-lawding-0b6729abd2b7?postPublishedType=initial
