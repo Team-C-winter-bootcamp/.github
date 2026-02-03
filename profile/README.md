@@ -31,6 +31,9 @@
 ### Medium
 > https://medium.com/@binsama0106/2025-siliconvalley-winter-bootcamp-lawding-0b6729abd2b7?postPublishedType=initial
 
+### Youtube
+> https://www.youtube.com/watch?v=qGQe_9VIdcQ&list=PLo5_LnrAlgO8fJZ5hYUqVJApjxp9LmzHW&index=2
+
 ### 프로젝트 소개
 - **변호사 선임의 심리적·비용적 부담을 줄이는 의뢰인 맞춤형 솔루션**
 - **판례 빅데이터를 기반으로 합리적인 법적 의사결정을 지원**
